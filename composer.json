@@ -1,0 +1,34 @@
+{
+    "name": "argentinaluiz/zf-doctrine-querybuilder-filter",
+    "description": "This library provides query builder filters from array parameters. This library was designed to apply filters from an HTTP request to give an API a fluent filter dialect. It's copy from https://github.com/TomHAnderson/zf-doctrine-querybuilder-filter.git",
+    "keywords": [
+        "framework",
+        "zf2",
+        "doctrine",
+        "apigility"
+    ],
+    "authors": [
+        {
+            "name": "Luiz Carlos",
+            "email": "argentinaluiz@gmail.com",
+            "homepage": "https://github.com/argentinaluiz"
+        }
+    ],
+    "homepage": "zf-doctrine-querybuilder-filter",
+    "minimum-stability": "dev",
+    "require-dev": {
+        "php": ">=5.3.23",
+        "zendframework/zendframework": ">=2.3.0",
+        "doctrine/doctrine-orm-module": "*",
+        "doctrine/doctrine-mongo-odm-module": "*",
+        "doctrine/mongodb-odm": "~1.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "ZF\\Doctrine\\QueryBuilder\\Filter": "src/"
+        },
+        "classmap": [
+            "./src/Module.php"
+        ]
+    }
+}
