@@ -14,7 +14,7 @@
             "homepage": "https://github.com/argentinaluiz"
         }
     ],
-    "homepage": "zf-doctrine-querybuilder-filter",
+    "homepage": "http://github.com/argentinaluiz/zf-doctrine-querybuilder-filter.git",
     "minimum-stability": "dev",
     "require-dev": {
         "php": ">=5.3.23",
